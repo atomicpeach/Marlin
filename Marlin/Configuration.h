@@ -500,9 +500,9 @@
   //#define DEFAULT_Kd 12
 
   // From auto-tune:
-  #define DEFAULT_Kp 25.89
-  #define DEFAULT_Ki 1.94
-  #define DEFAULT_Kd 86.53
+  #define DEFAULT_Kp 23.12
+  #define DEFAULT_Ki 1.74
+  #define DEFAULT_Kd 76.71
 
   // Mendel Parts V9 on 12V
   //#define DEFAULT_Kp 63.0
@@ -557,9 +557,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
-  #define DEFAULT_bedKp 10.00
-  #define DEFAULT_bedKi 0.023
-  #define DEFAULT_bedKd 305.4
+  #define DEFAULT_bedKp 37.09
+  #define DEFAULT_bedKi 1.11
+  #define DEFAULT_bedKd 828.44
   
 #endif // PIDTEMPBED
 
